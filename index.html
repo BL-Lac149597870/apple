@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript">
+(function(){
+	toSize();
+	window.addEventListener('resize',toSize);//屏幕大小改变的时候，重新计算一下 rem的基准值
+	function toSize(){
+		var html = document.documentElement;//获取html
+		var width = html.clientWidth; //获取到html的宽度
+		var nub = 13.5;//把rem的基准值(也就是html的字体大小)，设置成屏幕宽度的多少分之一
+		html.style.fontSize = width / nub + "px";//设置html的字体大小 
+	}
+})();	
+</script>
+	</head>
+	<body>
+		<input type="checkbox" name="menu" id="menu" value="" />
+		<section class="adv-wrapper">
+			<div class="adv-bar"> &lt;广告&gt;</div>
+		</section>
+		<section class="list-wrapper">
+			<ul class="mul">
+				<li>
+					<label for="menu">
+						<span></span>
+						<span></span>
+					</label>
+				</li>
+				<li><a href="index.html"></a></li>
+				<li><a href="#"></a></li>
+			</ul>
+			<div class="list-bar">
+				<ul class="pcul">
+					<li class="list-wrapper-li">
+						<a href="index.html">
+							<span>apple</span>
+						</a>
+					</li>
+					<li class="list-wrapper-li">
+						<a href="mac.html">
+							<span>mac</span>
+						</a>
+					</li>
+					<li class="list-wrapper-li">
+						<a href="#">
+							<span>ipad</span>
+						</a>
+					</li>
+					<li class="list-wrapper-li">
+						<a href="#">
+							<span>iphone</span>
+						</a>
+					</li>
+					<li class="list-wrapper-li">
+						<a href="#">
+							<span>watch</span>
+						</a>
+					</li>
+					<li class="list-wrapper-li">
+						<a href="#">
+							<span>music</span>
+						</a>
+					</li>
+					<li class="list-wrapper-li">
+						<a href="#">
+							<span>技术支持</span>
+						</a>
+					</li>
+					<li class="list-wrapper-li">
+						<a href="#">
+							<span>search</span>
+						</a>
+					</li>
+					<li class="list-wrapper-li">
+						<a href="#">
+							<span>bag</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="list-wrapper2">
+			<ul>
+				<li><a href="mac.html"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"></a></li>
+				<li><a href="#"><span>搜索 apple.com</span></a></li>
+			</ul>
+		</section>
+		<section class="img-wrapper">
+			<input type="button" name="" id="left-button" value="" />
+			<input type="button" name="" id="right-button" value="" />
+			<label class="left-button"></label>
+			<label class="right-button"></label>
+			<input type="radio" name="tablist" id="tablist1" value="" checked />
+			<input type="radio" name="tablist" id="tablist2" value="" />
+			<input type="radio" name="tablist" id="tablist3" value="" />
+			<ul class="tablist">
+				<li><label for="tablist1"><span></span></label></li>
+				<li><label for="tablist2"><span></span></label></li>
+				<li><label for="tablist3"><span></span></label></li>
+			</ul>
+			<ul class="gallery-list">
+				<li>
+					<a href="#">
+						<h2>iPhone</h2>
+						<h3>X , 在此。</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h2>iPad Pro</h2>
+						<h3>不只能做到，</h3>
+						<h3>还能做到更好。</h3>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h2></h2>
+						<h3>每一天，都可以更好。</h3>
+					</a>
+				</li>
+			</ul>
+		</section>
+		<section class="pro-wrapper">
+			<ul class="pro-list">
+				<li>
+					<a href="#">
+						<h4>巨石强森和 Siri</h4>
+						<h5>观看影片</h5>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h4>为高校生活买 Mac 或  iPad&nbsp;Pro 搭配 Beats，</h4>
+						<h4>只需 Mac 或 iPad&nbsp;Pro 的价。</h4>
+						<h5>此优惠于 Apple 在线教育商店 </h5>
+						<h5>和北京地区之外的 Apple Store 零售店提供。 </h5>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h4>Mac 以旧换新，你现有 Mac最高</h4>
+						<h5>可折抵 RMB 9,000 元*。 </h5>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<h4>使用iPhone 7</h4>
+						<h5>拍摄的窍门 </h5>
+					</a>
+				</li>
+			</ul>
+			<ul class="fact-wrapper">
+				<li class="fact">*实际折抵价值取决于设备的状况，并且可能不时发生变化。</li>
+				<li class="fact">双镜头摄像头仅于 iPhone 7 Plus 提供。亮黑色和红色外观仅提供 128GB 及 256GB 存储容量的机型。</li>
+			</ul>
+		</section>
+		<section class="footer-wrapper">
+			<input type="checkbox" name="moreh5-1" id="moreh5-1" value="" />
+			<input type="checkbox" name="moreh5-2" id="moreh5-2" value="" />
+			<input type="checkbox" name="moreh5-3" id="moreh5-3" value="" />
+			<input type="checkbox" name="moreh5-4" id="moreh5-4" value="" />
+			<input type="checkbox" name="moreh5-5" id="moreh5-5" value="" />
+			<input type="checkbox" name="moreh5-6" id="moreh5-6" value="" />
+			<input type="checkbox" name="moreh5-7" id="moreh5-7" value="" />
+			<ul class="footer-list">
+				<li>
+					<label for="moreh5-1"><h5>选购及了解</h5></label>
+					<ul>
+						<li><a href="mac.html">Mac</a></li>
+						<li><a href="#">iPad</a></li>
+						<li><a href="#">iPhone</a></li>
+						<li><a href="#">Watch</a></li>
+						<li><a href="#">Music</a></li>
+						<li><a href="#">iTunes</a></li>
+						<li><a href="#">iPod touch</a></li>
+						<li><a href="#">配件</a></li>
+						<li><a href="#">App Store 充值卡</a></li>
+					</ul>
+				</li>
+				<li>
+					<label for="moreh5-2"><h5>Apple Store 商店</h5></label>
+					<ul>
+						<li><a href="#">查找零售店</a></li>
+						<li><a href="#">Genius Bar 天才吧</a></li>
+						<li><a href="#">Today at Apple</a></li>
+						<li><a href="#">Apple 夏令营</a></li>
+						<li><a href="#">Field Trip 课外活动</a></li>
+						<li><a href="#">Apple Store App</a></li>
+						<li><a href="#">翻新和优惠</a></li>
+						<li><a href="#">分期付款</a></li>
+						<li><a href="#">重复使用和循环利用</a></li>
+						<li><a href="#">订单状态</a></li>
+						<li><a href="#">选购帮助</a></li>
+					</ul>
+				</li>
+				<li>
+					<div class="mored">
+						<label for="moreh5-3"><h5>教育应用</h5></label>
+						<ul>
+							<li><a href="#">Apple 与教育</a></li>
+							<li><a href="#">高校师生选购</a></li>
+						</ul>
+					</div>
+					<div>
+						<label for="moreh5-4"><h5 class="moreh">商务应用</h5></label>
+						<ul>
+							<li><a href="#">Apple 与商务</a></li>
+							<li><a href="#">商务选购</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="mored">
+						<label for="moreh5-5"><h5>账户</h5></label>
+						<ul>
+							<li><a href="#">管理你的 Apple ID</a></li>
+							<li><a href="#">Apple Store 账户</a></li>
+							<li><a href="#">iCloud.com</a></li>
+						</ul>
+					</div>
+					<div>
+						<label for="moreh5-6"><h5 class="moreh">Apple 价值观</h5></label>
+						<ul>
+							<li><a href="#">辅助功能</a></li>
+							<li><a href="#">环境责任</a></li>
+							<li><a href="#">隐私</a></li>
+							<li><a href="#">供应商责任</a></li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<label for="moreh5-7"><h5>关于 Apple</h5></label>
+					<ul>
+						<li><a href="#">Newsroom</a></li>
+						<li><a href="#">Apple 管理层</a></li>
+						<li><a href="#">工作机会</a></li>
+						<li><a href="#">活动</a></li>
+						<li><a href="#">联系 Apple</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="fact-wrapper morefact">
+				<li class="fact">更多选购方式：前往 <a href="#" class="morea">Apple Store 零售店</a>，致电 400-666-8800 或查找在你附近的<a href="#" class="morea">授权经销商</a>。</li>
+			</ul>
+		</section>	
+		<section class="footer-wrapper">
+			<div class="footer fact-wrapper">
+				<p class="fir-p">
+					<span>Copyright © 2017 Apple Inc. 保留所有权利。</span>
+					<a href="#" class="footera morefootera">隐私政策</a>
+					<a href="#" class="footera morefootera">使用条款</a>
+					<a href="#" class="footera morefootera">销售政策</a>
+					<a href="#" class="footera morefootera">法律信息</a>
+					<a href="#" class="footera morefootera">网站地图</a>
+					<a href="#" class="footera morefootera">中国</a>
+				</p>
+				<p>京公安网安备 11010502008968 <a href="#" class="footera">京ICP备10214630</a></p>
+			</div>
+		</section>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
